@@ -10,8 +10,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+233 000 000 000",
-    href: "tel:+233000000000",
+    value: "+233 547 695 369",
+    href: "tel:+233547695369",
   },
   {
     icon: Mail,
