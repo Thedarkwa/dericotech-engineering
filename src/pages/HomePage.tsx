@@ -67,7 +67,7 @@ const HomePage = () => {
 
             <AnimatedSection delay={200}>
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 leading-relaxed">
-                Dericotech Engineering delivers durable, high-quality welding and fabrication 
+                Derricotech Engineering delivers durable, high-quality welding and fabrication 
                 solutions for residential, commercial, and industrial projects across Ghana.
               </p>
             </AnimatedSection>

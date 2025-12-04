@@ -17,8 +17,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@dericotech.com",
-    href: "mailto:info@dericotech.com",
+    value: "info@derricotech.com",
+    href: "mailto:info@derricotech.com",
   },
   {
     icon: MapPin,
@@ -272,7 +272,7 @@ const ContactPage = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Dericotech Engineering Location"
+                title="Derricotech Engineering Location"
               />
             </div>
           </AnimatedSection>

@@ -34,7 +34,7 @@ const handler = async (req: Request): Promise<Response> => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Dericotech Engineering <onboarding@resend.dev>",
+        from: "Derricotech Engineering <onboarding@resend.dev>",
         to: ["dericotech@gmail.com"], // Change this to your email
         subject: `New Contact Form Submission from ${name}`,
         html: `
@@ -48,7 +48,7 @@ const handler = async (req: Request): Promise<Response> => {
           <h2>Message:</h2>
           <p>${message}</p>
           <hr />
-          <p style="color: #666; font-size: 12px;">This email was sent from the Dericotech Engineering website contact form.</p>
+          <p style="color: #666; font-size: 12px;">This email was sent from the Derricotech Engineering website contact form.</p>
         `,
       }),
     });

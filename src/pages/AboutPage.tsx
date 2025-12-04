@@ -39,7 +39,7 @@ const AboutPage = () => {
                 <span className="text-gradient">STEEL & PRECISION</span>
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Dericotech Engineering is a trusted name in welding and fabrication services, 
+                Derricotech Engineering is a trusted name in welding and fabrication services, 
                 serving clients across Ghana with excellence, precision, and dedication.
               </p>
             </div>
@@ -73,7 +73,7 @@ const AboutPage = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Dericotech Engineering was established with a vision to provide world-class 
+                    Derricotech Engineering was established with a vision to provide world-class 
                     welding and fabrication services in Ghana. Located in Tema, Accra, we have 
                     grown to become one of the most trusted names in the industry.
                   </p>
