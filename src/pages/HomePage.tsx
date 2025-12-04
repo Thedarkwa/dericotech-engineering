@@ -198,7 +198,7 @@ const HomePage = () => {
                   </Link>
                 </Button>
                 <Button asChild variant="heroOutline" size="xl">
-                  <a href="tel:+233000000000">Call Now</a>
+                  <a href="tel:+233547695369">Call Now</a>
                 </Button>
               </div>
             </div>
