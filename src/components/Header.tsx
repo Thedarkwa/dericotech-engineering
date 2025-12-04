@@ -46,7 +46,7 @@ const Header = () => {
               <span className="font-display text-2xl text-primary-foreground">D</span>
             </div>
             <div className="hidden sm:block">
-              <span className="font-display text-2xl text-foreground">DERICOTECH</span>
+              <span className="font-display text-2xl text-foreground">DERRICOTECH</span>
               <span className="block text-xs text-muted-foreground tracking-widest">ENGINEERING</span>
             </div>
           </Link>

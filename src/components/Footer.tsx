@@ -13,7 +13,7 @@ const Footer = () => {
                 <span className="font-display text-2xl text-primary-foreground">D</span>
               </div>
               <div>
-                <span className="font-display text-xl text-foreground">DERICOTECH</span>
+                <span className="font-display text-xl text-foreground">DERRICOTECH</span>
                 <span className="block text-xs text-muted-foreground tracking-widest">ENGINEERING</span>
               </div>
             </div>
@@ -69,9 +69,9 @@ const Footer = () => {
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
                 <span>+233 000 000 000</span>
               </a>
-              <a href="mailto:info@dericotech.com" className="flex items-start gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
+              <a href="mailto:info@derricotech.com" className="flex items-start gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
                 <Mail className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>info@dericotech.com</span>
+                <span>info@derricotech.com</span>
               </a>
               <div className="flex items-start gap-3 text-muted-foreground text-sm">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
@@ -84,7 +84,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Dericotech Engineering. All rights reserved.
+            © {new Date().getFullYear()} Derricotech Engineering. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
             Precision Welding & Quality Fabrication
