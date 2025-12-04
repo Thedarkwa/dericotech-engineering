@@ -65,9 +65,9 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-xl text-foreground mb-6">CONTACT US</h4>
             <div className="flex flex-col gap-4">
-              <a href="tel:+233000000000" className="flex items-start gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
+              <a href="tel:+233547695369" className="flex items-start gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>+233 000 000 000</span>
+                <span>+233 547 695 396</span>
               </a>
               <a href="mailto:info@derricotech.com" className="flex items-start gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
                 <Mail className="w-5 h-5 mt-0.5 flex-shrink-0" />
@@ -75,7 +75,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-muted-foreground text-sm">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>Tema, Accra, Ghana</span>
+                <span>Tema. Accra, Ghana</span>
               </div>
             </div>
           </div>
