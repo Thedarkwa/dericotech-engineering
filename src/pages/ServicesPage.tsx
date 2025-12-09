@@ -5,6 +5,9 @@ import AnimatedSection from "@/components/AnimatedSection";
 import serviceMig from "@/assets/service-mig-welding.jpg";
 import serviceFab from "@/assets/service-fabrication.jpg";
 import serviceStructural from "@/assets/service-structural.jpg";
+import serviceStructuralWelding from "@/assets/service-structural-welding.jpg";
+import serviceMetalFabrication from "@/assets/service-metal-fabrication.jpg";
+import serviceCustomFabrication from "@/assets/service-custom-fabrication.jpg";
 
 const services = [
   {
@@ -21,7 +24,7 @@ const services = [
     subtitle: "Custom Solutions",
     description: "From concept to completion, we fabricate custom metal structures to your exact specifications. Our fabrication shop is equipped with modern machinery to cut, bend, and shape metal for any application.",
     features: ["Gates & Doors", "Railings & Balustrades", "Tanks & Containers", "Metal Furniture", "Frames & Supports", "Decorative Metalwork"],
-    image: serviceFab,
+    image: serviceMetalFabrication,
   },
   {
     icon: Building2,
@@ -37,7 +40,7 @@ const services = [
     subtitle: "Built to Last",
     description: "When strength and durability matter most, our heavy-duty structural welding services deliver. We work on construction projects, infrastructure, and industrial applications requiring maximum load-bearing capacity.",
     features: ["Steel Structures", "Building Frameworks", "Bridge Components", "Support Columns", "Reinforcements", "Load-Bearing Joints"],
-    image: serviceStructural,
+    image: serviceStructuralWelding,
   },
   {
     icon: Cog,
@@ -53,7 +56,7 @@ const services = [
     subtitle: "Your Vision, Our Craft",
     description: "Have a unique project in mind? We bring your ideas to life with custom fabrication services. From artistic metalwork to specialized industrial components, we work closely with you to deliver exactly what you need.",
     features: ["Prototype Development", "One-Off Pieces", "Artistic Metalwork", "Specialized Equipment", "Custom Modifications", "Design Consultation"],
-    image: serviceFab,
+    image: serviceCustomFabrication,
   },
 ];
 
