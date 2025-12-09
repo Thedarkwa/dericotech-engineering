@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/AnimatedSection";
 import heroImage from "@/assets/hero-welding.jpg";
 import serviceMig from "@/assets/service-mig-welding.jpg";
-import serviceFab from "@/assets/service-fabrication.jpg";
-import serviceStructural from "@/assets/service-structural.jpg";
+import homeMetalFabrication from "@/assets/home-metal-fabrication.jpg";
+import homeStructuralWelding from "@/assets/home-structural-welding.jpg";
 
 const stats = [
   { icon: Users, value: "500+", label: "Projects Completed" },
@@ -23,12 +23,12 @@ const services = [
   {
     title: "Metal Fabrication",
     description: "Custom metal structures, gates, railings, tanks, and industrial components.",
-    image: serviceFab,
+    image: homeMetalFabrication,
   },
   {
     title: "Structural Welding",
     description: "Heavy-duty structural welding for industrial and commercial applications.",
-    image: serviceStructural,
+    image: homeStructuralWelding,
   },
 ];
 
