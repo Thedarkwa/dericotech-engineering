@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -41,12 +42,10 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-              <span className="font-display text-2xl text-primary-foreground">D</span>
-            </div>
+          <Link to="/" className="flex items-center gap-3">
+            <img src={logo} alt="Dericotech Engineering Logo" className="h-12 w-auto" />
             <div className="hidden sm:block">
-              <span className="font-display text-2xl text-foreground">DERRICOTECH</span>
+              <span className="font-display text-2xl text-foreground">DERICOTECH</span>
               <span className="block text-xs text-muted-foreground tracking-widest">ENGINEERING</span>
             </div>
           </Link>
