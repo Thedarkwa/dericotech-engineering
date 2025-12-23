@@ -12,6 +12,7 @@ import serviceCrane from "@/assets/service-crane.jpg";
 import serviceRollerDoor from "@/assets/service-roller-door.jpg";
 import serviceFencing from "@/assets/service-fencing.jpg";
 import serviceCompressor from "@/assets/service-compressor.jpg";
+import serviceBoiler from "@/assets/service-boiler.jpg";
 
 const services = [
   {
@@ -76,7 +77,7 @@ const services = [
     subtitle: "Industrial Heating Solutions",
     description: "Professional boiler refurbishment and overhaul services to restore efficiency and extend equipment lifespan. We ensure your boilers meet safety standards and operate at peak performance.",
     features: ["Complete Refurbishment", "System Overhaul", "Safety Inspections", "Efficiency Upgrades", "Component Replacement", "Compliance Testing"],
-    image: serviceMig,
+    image: serviceBoiler,
   },
   {
     icon: Sparkles,
