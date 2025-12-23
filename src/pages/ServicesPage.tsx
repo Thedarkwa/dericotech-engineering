@@ -9,6 +9,7 @@ import serviceStructuralWelding from "@/assets/service-structural-welding.jpg";
 import serviceMetalFabrication from "@/assets/service-metal-fabrication.jpg";
 import serviceCustomFabrication from "@/assets/service-custom-fabrication.jpg";
 import serviceCrane from "@/assets/service-crane.jpg";
+import serviceRollerDoor from "@/assets/service-roller-door.jpg";
 
 const services = [
   {
@@ -105,7 +106,7 @@ const services = [
     subtitle: "Commercial & Domestic",
     description: "Installation and maintenance services for commercial and domestic roller doors. We provide reliable solutions for warehouses, shops, garages, and residential properties.",
     features: ["Commercial Doors", "Domestic Doors", "Installation", "Repairs", "Preventive Maintenance", "Motor Replacement"],
-    image: serviceFab,
+    image: serviceRollerDoor,
   },
   {
     icon: Shield,
