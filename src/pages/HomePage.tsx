@@ -106,7 +106,7 @@ const HomePage = () => {
           <div className="max-w-3xl">
             <AnimatedSection>
               <span className="inline-block px-4 py-2 bg-primary/20 text-primary rounded-full text-sm font-medium mb-6 border border-primary/30">
-                Tema, Accra, Ghana
+                Tema. Accra, Ghana
               </span>
             </AnimatedSection>
             
