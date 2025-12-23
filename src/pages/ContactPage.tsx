@@ -265,7 +265,7 @@ const ContactPage = () => {
           <AnimatedSection delay={200}>
             <div className="rounded-lg overflow-hidden card-shadow h-[400px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127066.72557640938!2d0.0190195!3d5.6698968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sTema%2C%20Ghana!5e0!3m2!1sen!2s!4v1699000000000!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.5!2d0.0513246!3d5.6931333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10207f000ac5bdbb%3A0x9b419e8736c8d1e1!2sDerricotech%20Engineering%20Company%20Limited!5e0!3m2!1sen!2sgh!4v1703350000000!5m2!1sen!2sgh"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
