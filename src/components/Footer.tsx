@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,12 +9,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="font-display text-2xl text-primary-foreground">D</span>
-              </div>
+            <div className="flex items-center gap-3 mb-6">
+              <img src={logo} alt="Dericotech Engineering Logo" className="h-12 w-auto" />
               <div>
-                <span className="font-display text-xl text-foreground">DERRICOTECH</span>
+                <span className="font-display text-xl text-foreground">DERICOTECH</span>
                 <span className="block text-xs text-muted-foreground tracking-widest">ENGINEERING</span>
               </div>
             </div>
