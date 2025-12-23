@@ -163,13 +163,14 @@ const ServicesPage = () => {
               <AnimatedSection key={service.title}>
                 <div className={`grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
                   <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                    <div className="relative overflow-hidden rounded-lg">
+                    <div className="relative overflow-hidden rounded-xl group shadow-elevated hover:shadow-floating transition-all duration-500">
                       <img
                         src={service.image}
                         alt={service.title}
-                        className="w-full aspect-[4/3] object-cover"
+                        className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-110"
                       />
-                      <div className="absolute top-4 left-4 bg-primary text-primary-foreground p-3 rounded-lg">
+                      <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                      <div className="absolute top-4 left-4 bg-primary text-primary-foreground p-3 rounded-lg shadow-lg transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3">
                         <service.icon className="w-6 h-6" />
                       </div>
                     </div>
@@ -186,9 +187,13 @@ const ServicesPage = () => {
                       {service.description}
                     </p>
                     <div className="grid grid-cols-2 gap-3 mb-8">
-                      {service.features.map((feature) => (
-                        <div key={feature} className="flex items-center gap-2 text-sm text-muted-foreground">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full" />
+                      {service.features.map((feature, featureIndex) => (
+                        <div 
+                          key={feature} 
+                          className="flex items-center gap-2 text-sm text-muted-foreground group/feature hover:text-foreground transition-colors duration-300"
+                          style={{ animationDelay: `${featureIndex * 50}ms` }}
+                        >
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full transition-transform duration-300 group-hover/feature:scale-150" />
                           {feature}
                         </div>
                       ))}
