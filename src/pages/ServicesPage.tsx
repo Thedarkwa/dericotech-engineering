@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Wrench, Factory, Building2, Cog, Hammer, Sparkles } from "lucide-react";
+import { ArrowRight, Wrench, Factory, Building2, Cog, Hammer, Sparkles, Wind, Flame, Shield, Container, DoorOpen, Fence } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/AnimatedSection";
 import serviceMig from "@/assets/service-mig-welding.jpg";
@@ -58,8 +58,71 @@ const services = [
     features: ["Prototype Development", "One-Off Pieces", "Artistic Metalwork", "Specialized Equipment", "Custom Modifications", "Design Consultation"],
     image: serviceCustomFabrication,
   },
+  {
+    icon: Wind,
+    title: "Compressor and Air Systems",
+    subtitle: "Overhaul, Installation & Maintenance",
+    description: "Complete compressor and air system solutions including installation of new systems, overhaul of existing equipment, and ongoing maintenance services to ensure optimal performance and reliability.",
+    features: ["System Installation", "Complete Overhaul", "Preventive Maintenance", "Performance Optimization", "Troubleshooting", "Parts Replacement"],
+    image: serviceStructural,
+  },
+  {
+    icon: Flame,
+    title: "Boiler Refurbishment and Overhaul",
+    subtitle: "Industrial Heating Solutions",
+    description: "Professional boiler refurbishment and overhaul services to restore efficiency and extend equipment lifespan. We ensure your boilers meet safety standards and operate at peak performance.",
+    features: ["Complete Refurbishment", "System Overhaul", "Safety Inspections", "Efficiency Upgrades", "Component Replacement", "Compliance Testing"],
+    image: serviceMig,
+  },
+  {
+    icon: Sparkles,
+    title: "Stainless Steel, Aluminum Fabrication and Insulation",
+    subtitle: "Specialty Materials",
+    description: "Expert fabrication services for stainless steel and aluminum applications, combined with professional insulation installation for thermal efficiency and protection.",
+    features: ["Stainless Steel Work", "Aluminum Fabrication", "Thermal Insulation", "Corrosion Resistant", "Food Grade Fabrication", "Custom Finishes"],
+    image: serviceMetalFabrication,
+  },
+  {
+    icon: Shield,
+    title: "Coded Qualified Welding",
+    subtitle: "Certified Excellence",
+    description: "Certified coded welding services performed by qualified welders to meet stringent industry standards and specifications. Essential for critical applications requiring documented quality assurance.",
+    features: ["Certified Welders", "Code Compliance", "Quality Assurance", "Documentation", "Inspection Ready", "Industry Standards"],
+    image: serviceStructuralWelding,
+  },
+  {
+    icon: Container,
+    title: "Overhead Crane Installation",
+    subtitle: "Lifting Solutions",
+    description: "Professional installation of overhead crane systems for industrial facilities. We handle complete installation from planning to commissioning, ensuring safe and efficient material handling operations.",
+    features: ["Complete Installation", "System Design", "Safety Compliance", "Load Testing", "Commissioning", "Training Services"],
+    image: serviceStructural,
+  },
+  {
+    icon: DoorOpen,
+    title: "Roller Door Installation and Maintenance",
+    subtitle: "Commercial & Domestic",
+    description: "Installation and maintenance services for commercial and domestic roller doors. We provide reliable solutions for warehouses, shops, garages, and residential properties.",
+    features: ["Commercial Doors", "Domestic Doors", "Installation", "Repairs", "Preventive Maintenance", "Motor Replacement"],
+    image: serviceFab,
+  },
+  {
+    icon: Shield,
+    title: "Security Panels, Grilles and Automatic Gates",
+    subtitle: "Property Protection",
+    description: "Enhance your property security with custom security panels, grilles, and automatic gate systems. We design and install solutions that combine security with aesthetic appeal.",
+    features: ["Security Panels", "Window Grilles", "Automatic Gates", "Access Control", "Custom Designs", "Motorized Systems"],
+    image: serviceCustomFabrication,
+  },
+  {
+    icon: Fence,
+    title: "Fencing Solutions",
+    subtitle: "Boundary & Pool Fencing",
+    description: "Complete fencing solutions including boundary chain links, barbwire fencing, and swimming pool fencing. We provide durable, secure fencing for residential, commercial, and industrial properties.",
+    features: ["Chain Link Fencing", "Barbwire Fencing", "Swimming Pool Fencing", "Boundary Fencing", "Security Fencing", "Gate Installation"],
+    image: serviceStructuralWelding,
+  },
 ];
-
 const ServicesPage = () => {
   return (
     <main className="pt-20">
