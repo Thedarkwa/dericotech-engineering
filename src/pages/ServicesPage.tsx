@@ -8,6 +8,7 @@ import serviceStructural from "@/assets/service-structural.jpg";
 import serviceStructuralWelding from "@/assets/service-structural-welding.jpg";
 import serviceMetalFabrication from "@/assets/service-metal-fabrication.jpg";
 import serviceCustomFabrication from "@/assets/service-custom-fabrication.jpg";
+import serviceCrane from "@/assets/service-crane.jpg";
 
 const services = [
   {
@@ -96,7 +97,7 @@ const services = [
     subtitle: "Lifting Solutions",
     description: "Professional installation of overhead crane systems for industrial facilities. We handle complete installation from planning to commissioning, ensuring safe and efficient material handling operations.",
     features: ["Complete Installation", "System Design", "Safety Compliance", "Load Testing", "Commissioning", "Training Services"],
-    image: serviceStructural,
+    image: serviceCrane,
   },
   {
     icon: DoorOpen,
