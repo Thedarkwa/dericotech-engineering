@@ -97,8 +97,8 @@ const HomePage = () => {
             alt="Welding workshop with sparks"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/70 to-navy/40" />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
         </div>
 
         {/* Content */}
@@ -111,7 +111,7 @@ const HomePage = () => {
             </AnimatedSection>
             
             <AnimatedSection delay={100}>
-              <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-white leading-tight mb-6">
+              <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-foreground leading-tight mb-6">
                 PRECISION WELDING &{" "}
                 <span className="text-gradient">QUALITY FABRICATION</span>{" "}
                 YOU CAN TRUST
@@ -119,7 +119,7 @@ const HomePage = () => {
             </AnimatedSection>
 
             <AnimatedSection delay={200}>
-              <p className="text-lg md:text-xl text-white/80 max-w-xl mb-8 leading-relaxed">
+              <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 leading-relaxed">
                 Derricotech Engineering delivers durable, high-quality welding and fabrication 
                 solutions for residential, commercial, and industrial projects across Ghana.
               </p>
@@ -142,7 +142,7 @@ const HomePage = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/60 animate-bounce">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground animate-bounce">
           <span className="text-xs tracking-widest">SCROLL</span>
           <div className="w-px h-8 bg-gradient-to-b from-primary to-transparent" />
         </div>
