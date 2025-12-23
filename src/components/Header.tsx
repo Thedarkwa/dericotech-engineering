@@ -43,9 +43,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="Dericotech Engineering Logo" className="h-12 w-auto" />
+            <img src={logo} alt="Derricotech Engineering Logo" className="h-12 w-auto" />
             <div className="hidden sm:block">
-              <span className="font-display text-2xl text-foreground">DERICOTECH</span>
+              <span className="font-display text-2xl text-foreground">DERRICOTECH</span>
               <span className="block text-xs text-muted-foreground tracking-widest">ENGINEERING</span>
             </div>
           </Link>

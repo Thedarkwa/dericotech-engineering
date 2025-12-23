@@ -10,9 +10,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="Dericotech Engineering Logo" className="h-12 w-auto" />
+              <img src={logo} alt="Derricotech Engineering Logo" className="h-12 w-auto" />
               <div>
-                <span className="font-display text-xl text-foreground">DERICOTECH</span>
+                <span className="font-display text-xl text-foreground">DERRICOTECH</span>
                 <span className="block text-xs text-muted-foreground tracking-widest">ENGINEERING</span>
               </div>
             </div>
