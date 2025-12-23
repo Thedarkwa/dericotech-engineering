@@ -13,6 +13,7 @@ import serviceRollerDoor from "@/assets/service-roller-door.jpg";
 import serviceFencing from "@/assets/service-fencing.jpg";
 import serviceCompressor from "@/assets/service-compressor.jpg";
 import serviceBoiler from "@/assets/service-boiler.jpg";
+import serviceRepairs from "@/assets/service-repairs.jpg";
 
 const services = [
   {
@@ -53,7 +54,7 @@ const services = [
     subtitle: "Quick Turnaround",
     description: "Keep your equipment and structures in top condition with our repair and maintenance services. We provide quick, reliable repairs for all types of metal work, minimizing downtime and extending the life of your assets.",
     features: ["Equipment Repairs", "Structural Repairs", "Weld Repairs", "Preventive Maintenance", "Emergency Services", "On-Site Repairs"],
-    image: serviceMig,
+    image: serviceRepairs,
   },
   {
     icon: Sparkles,
