@@ -51,53 +51,6 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Company Profile */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <AnimatedSection>
-              <div className="relative">
-                <img
-                  src={aboutHero}
-                  alt="Fabrication workshop"
-                  className="rounded-lg w-full card-shadow"
-                />
-                <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-xl">
-                  <div className="font-display text-4xl">10+</div>
-                  <div className="text-sm">Years Experience</div>
-                </div>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={200}>
-              <div>
-                <span className="text-primary font-medium tracking-widest text-sm">OUR STORY</span>
-                <h2 className="font-display text-4xl text-foreground mt-4 mb-6">
-                  COMPANY PROFILE
-                </h2>
-                <div className="space-y-4 text-muted-foreground leading-relaxed">
-                  <p>
-                    Derricotech Engineering was established with a vision to provide world-class 
-                    welding and fabrication services in Ghana. Located in Tema, Accra, we have 
-                    grown to become one of the most trusted names in the industry.
-                  </p>
-                  <p>
-                    Our team of skilled professionals brings years of experience and expertise 
-                    to every project. From small repairs to large-scale industrial fabrication, 
-                    we approach each job with the same commitment to quality and precision.
-                  </p>
-                  <p>
-                    We serve a diverse range of clients including homeowners, construction 
-                    companies, industrial facilities, and government projects, always delivering 
-                    work that exceeds expectations.
-                  </p>
-                </div>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
       {/* Mission & Vision */}
       <section className="py-24 bg-card">
         <div className="container mx-auto px-4">
