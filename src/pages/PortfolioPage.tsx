@@ -3,55 +3,137 @@ import { Link } from "react-router-dom";
 import { ArrowRight, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedSection from "@/components/AnimatedSection";
-import portfolioGate from "@/assets/portfolio-gate.jpg";
-import portfolioTank from "@/assets/portfolio-tank.jpg";
-import portfolioRailing from "@/assets/portfolio-railing.jpg";
-import portfolioStructure from "@/assets/portfolio-structure.jpg";
-import serviceFab from "@/assets/service-fabrication.jpg";
-import serviceMig from "@/assets/service-mig-welding.jpg";
+
+// Portfolio images
+import portfolioCraneBeam from "@/assets/portfolio-crane-beam.jpg";
+import portfolioContainer from "@/assets/portfolio-container.jpg";
+import portfolioPiping from "@/assets/portfolio-piping.jpg";
+import portfolioDuctwork from "@/assets/portfolio-ductwork.jpg";
+import portfolioSteelStructure from "@/assets/portfolio-steel-structure.jpg";
+import portfolioPipes from "@/assets/portfolio-pipes.jpg";
+import portfolioContainerBuild from "@/assets/portfolio-container-build.jpg";
+import portfolioWarehouse from "@/assets/portfolio-warehouse.jpg";
+import portfolioConstructionSite from "@/assets/portfolio-construction-site.jpg";
+import portfolioTankPiping from "@/assets/portfolio-tank-piping.jpg";
+import portfolioContainerLift from "@/assets/portfolio-container-lift.jpg";
+import portfolioRooftopDuct from "@/assets/portfolio-rooftop-duct.jpg";
+import portfolioSilos from "@/assets/portfolio-silos.jpg";
+import portfolioTankWork from "@/assets/portfolio-tank-work.jpg";
+import portfolioDuctInstall from "@/assets/portfolio-duct-install.jpg";
+import portfolioStorageTank from "@/assets/portfolio-storage-tank.jpg";
 
 const projects = [
   {
     id: 1,
-    title: "Custom Decorative Gate",
-    category: "Gates & Doors",
-    description: "Elegant wrought iron gate with intricate scrollwork design for a residential property in Accra. Features powder-coated finish for durability.",
-    image: portfolioGate,
+    title: "Crane Beam Fabrication",
+    category: "Structural Works",
+    description: "Heavy-duty yellow crane beam fabricated for an industrial facility. This project involved precision cutting, welding, and assembly of large-scale steel components designed to support overhead crane systems in a manufacturing plant.",
+    image: portfolioCraneBeam,
   },
   {
     id: 2,
-    title: "Industrial Storage Tank",
-    category: "Tanks & Containers",
-    description: "10,000-liter steel storage tank fabricated for an industrial facility in Tema. Includes welded seams and corrosion-resistant coating.",
-    image: portfolioTank,
+    title: "Container Office Conversion",
+    category: "Container Projects",
+    description: "Custom shipping container conversion into a fully functional office space. Features include installed windows, doors, electrical systems, and interior finishing for on-site accommodation at construction projects.",
+    image: portfolioContainer,
   },
   {
     id: 3,
-    title: "Modern Staircase Railing",
-    category: "Railings & Balustrades",
-    description: "Contemporary stainless steel railing system for a commercial building. Combines safety with sleek aesthetic design.",
-    image: portfolioRailing,
+    title: "Industrial Piping System",
+    category: "Piping & Tanks",
+    description: "Complete industrial piping installation for a processing facility. Includes multiple pump stations, valve assemblies, and pressure-rated connections for fluid transfer operations.",
+    image: portfolioPiping,
   },
   {
     id: 4,
-    title: "Warehouse Steel Structure",
-    category: "Structural Works",
-    description: "Heavy-duty steel framework for a large warehouse facility. Designed to support maximum load capacity and weather resistance.",
-    image: portfolioStructure,
+    title: "Ductwork Installation",
+    category: "Industrial Projects",
+    description: "Large-scale industrial ductwork fabrication and installation. Custom-designed ventilation system components including curved sections and support structures for efficient air flow management.",
+    image: portfolioDuctwork,
   },
   {
     id: 5,
-    title: "Metal Fabrication Workshop",
-    category: "Industrial Projects",
-    description: "Complete metal fabrication setup for an industrial client. Includes custom workstations, storage systems, and safety barriers.",
-    image: serviceFab,
+    title: "Steel Frame Structure",
+    category: "Structural Works",
+    description: "Structural steel framework for an industrial building. Heavy I-beam columns and cross-bracing designed to meet load specifications for warehouse and manufacturing facilities.",
+    image: portfolioSteelStructure,
   },
   {
     id: 6,
-    title: "Precision Welding Project",
-    category: "Custom Welding",
-    description: "Specialized welding work for automotive components requiring high precision and quality finish.",
-    image: serviceMig,
+    title: "Heavy Pipe Fabrication",
+    category: "Piping & Tanks",
+    description: "Large diameter pipe fabrication for industrial applications. Precision-cut and welded steel pipes ready for installation in processing plants and infrastructure projects.",
+    image: portfolioPipes,
+  },
+  {
+    id: 7,
+    title: "Multi-Story Container Building",
+    category: "Container Projects",
+    description: "Two-story modular building constructed from shipping containers. Includes window cutouts, structural reinforcement, and preparation for interior finishing as temporary or permanent structures.",
+    image: portfolioContainerBuild,
+  },
+  {
+    id: 8,
+    title: "Warehouse Construction",
+    category: "Structural Works",
+    description: "Large-scale industrial warehouse with steel truss roof system. Features heavy-duty foundations, crane rails, and structural elements designed for heavy manufacturing operations.",
+    image: portfolioWarehouse,
+  },
+  {
+    id: 9,
+    title: "Industrial Construction Site",
+    category: "Structural Works",
+    description: "Major industrial construction project featuring steel frame erection with mobile crane support. Large-scale structural steel installation for factory and warehouse facilities.",
+    image: portfolioConstructionSite,
+  },
+  {
+    id: 10,
+    title: "Tank Farm Piping",
+    category: "Piping & Tanks",
+    description: "Complete piping network installation at a petroleum storage facility. Includes manifold systems, isolation valves, and connections to large storage tanks with proper safety markings.",
+    image: portfolioTankPiping,
+  },
+  {
+    id: 11,
+    title: "Container Crane Installation",
+    category: "Container Projects",
+    description: "Container lifting and positioning using heavy crane equipment. Precision placement of modified shipping containers for modular construction projects.",
+    image: portfolioContainerLift,
+  },
+  {
+    id: 12,
+    title: "Rooftop Ductwork System",
+    category: "Industrial Projects",
+    description: "Large-diameter industrial ductwork installed at rooftop level. Custom fabricated sections connected to ventilation and exhaust systems for manufacturing facilities.",
+    image: portfolioRooftopDuct,
+  },
+  {
+    id: 13,
+    title: "Industrial Silo Fabrication",
+    category: "Industrial Projects",
+    description: "Cyclone separator and silo installation for dust collection and material handling. Steel structures with support frameworks designed for industrial processing applications.",
+    image: portfolioSilos,
+  },
+  {
+    id: 14,
+    title: "Storage Tank Piping",
+    category: "Piping & Tanks",
+    description: "Pipeline installation connecting to large storage tanks. Includes flanged connections, support saddles, and coating for corrosion protection at petroleum storage facilities.",
+    image: portfolioTankWork,
+  },
+  {
+    id: 15,
+    title: "Industrial Duct Assembly",
+    category: "Industrial Projects",
+    description: "Heavy industrial ductwork assembly using crane lifting equipment. Large-diameter curved sections fabricated and installed for factory ventilation systems.",
+    image: portfolioDuctInstall,
+  },
+  {
+    id: 16,
+    title: "Storage Tank Project",
+    category: "Piping & Tanks",
+    description: "Large petroleum storage tank with connected piping infrastructure. Features multiple nozzle connections, ladder access, and proper markings for safe operations at tank farm facilities.",
+    image: portfolioStorageTank,
   },
 ];
 
