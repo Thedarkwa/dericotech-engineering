@@ -11,6 +11,7 @@ import serviceCustomFabrication from "@/assets/service-custom-fabrication.jpg";
 import serviceCrane from "@/assets/service-crane.jpg";
 import serviceRollerDoor from "@/assets/service-roller-door.jpg";
 import serviceFencing from "@/assets/service-fencing.jpg";
+import serviceCompressor from "@/assets/service-compressor.jpg";
 
 const services = [
   {
@@ -67,7 +68,7 @@ const services = [
     subtitle: "Overhaul, Installation & Maintenance",
     description: "Complete compressor and air system solutions including installation of new systems, overhaul of existing equipment, and ongoing maintenance services to ensure optimal performance and reliability.",
     features: ["System Installation", "Complete Overhaul", "Preventive Maintenance", "Performance Optimization", "Troubleshooting", "Parts Replacement"],
-    image: serviceStructural,
+    image: serviceCompressor,
   },
   {
     icon: Flame,
