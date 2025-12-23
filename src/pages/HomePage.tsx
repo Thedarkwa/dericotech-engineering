@@ -24,6 +24,14 @@ import portfolioSilos from "@/assets/portfolio-silos.jpg";
 import portfolioTankWork from "@/assets/portfolio-tank-work.jpg";
 import portfolioDuctInstall from "@/assets/portfolio-duct-install.jpg";
 import portfolioStorageTank from "@/assets/portfolio-storage-tank.jpg";
+import portfolioDuctCrane from "@/assets/portfolio-duct-crane.jpg";
+import portfolioDuctLine from "@/assets/portfolio-duct-line.jpg";
+import portfolioBeamLift from "@/assets/portfolio-beam-lift.jpg";
+import portfolioLpgTank from "@/assets/portfolio-lpg-tank.jpg";
+import portfolioPlantInstall from "@/assets/portfolio-plant-install.jpg";
+import portfolioPumpStation from "@/assets/portfolio-pump-station.jpg";
+import portfolioFactoryWork from "@/assets/portfolio-factory-work.jpg";
+import portfolioFrameBuild from "@/assets/portfolio-frame-build.jpg";
 
 const portfolioItems = [
   { image: portfolioCraneBeam, title: "Crane Beam Fabrication" },
@@ -42,6 +50,14 @@ const portfolioItems = [
   { image: portfolioTankWork, title: "Storage Tank Piping" },
   { image: portfolioDuctInstall, title: "Industrial Duct System" },
   { image: portfolioStorageTank, title: "Storage Tank Project" },
+  { image: portfolioDuctCrane, title: "Duct Crane Lift" },
+  { image: portfolioDuctLine, title: "Exhaust Duct Line" },
+  { image: portfolioBeamLift, title: "Steel Beam Installation" },
+  { image: portfolioLpgTank, title: "LPG Tank Setup" },
+  { image: portfolioPlantInstall, title: "Processing Plant" },
+  { image: portfolioPumpStation, title: "Pump Station" },
+  { image: portfolioFactoryWork, title: "Factory Fabrication" },
+  { image: portfolioFrameBuild, title: "Steel Frame Building" },
 ];
 
 const stats = [

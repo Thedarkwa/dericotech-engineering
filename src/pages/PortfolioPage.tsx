@@ -21,6 +21,14 @@ import portfolioSilos from "@/assets/portfolio-silos.jpg";
 import portfolioTankWork from "@/assets/portfolio-tank-work.jpg";
 import portfolioDuctInstall from "@/assets/portfolio-duct-install.jpg";
 import portfolioStorageTank from "@/assets/portfolio-storage-tank.jpg";
+import portfolioDuctCrane from "@/assets/portfolio-duct-crane.jpg";
+import portfolioDuctLine from "@/assets/portfolio-duct-line.jpg";
+import portfolioBeamLift from "@/assets/portfolio-beam-lift.jpg";
+import portfolioLpgTank from "@/assets/portfolio-lpg-tank.jpg";
+import portfolioPlantInstall from "@/assets/portfolio-plant-install.jpg";
+import portfolioPumpStation from "@/assets/portfolio-pump-station.jpg";
+import portfolioFactoryWork from "@/assets/portfolio-factory-work.jpg";
+import portfolioFrameBuild from "@/assets/portfolio-frame-build.jpg";
 
 const projects = [
   {
@@ -134,6 +142,62 @@ const projects = [
     category: "Piping & Tanks",
     description: "Large petroleum storage tank with connected piping infrastructure. Features multiple nozzle connections, ladder access, and proper markings for safe operations at tank farm facilities.",
     image: portfolioStorageTank,
+  },
+  {
+    id: 17,
+    title: "Duct Crane Lift",
+    category: "Industrial Projects",
+    description: "Heavy-duty industrial ductwork being lifted and positioned using crane equipment. Large-diameter curved duct sections installed on rooftop steel support structures.",
+    image: portfolioDuctCrane,
+  },
+  {
+    id: 18,
+    title: "Exhaust Duct Line",
+    category: "Industrial Projects",
+    description: "Extended exhaust ductwork system with multiple support stands. Features large-diameter galvanized steel ducts with curved transition sections for factory ventilation.",
+    image: portfolioDuctLine,
+  },
+  {
+    id: 19,
+    title: "Steel Beam Installation",
+    category: "Structural Works",
+    description: "Precision steel beam lifting and installation using crane equipment. Team of workers positioning structural steel components for industrial facility construction.",
+    image: portfolioBeamLift,
+  },
+  {
+    id: 20,
+    title: "LPG Tank Installation",
+    category: "Piping & Tanks",
+    description: "Large LPG storage tank installation with connected piping infrastructure. Features pressure-rated vessels, safety systems, and ground-level valve assemblies.",
+    image: portfolioLpgTank,
+  },
+  {
+    id: 21,
+    title: "Processing Plant Installation",
+    category: "Industrial Projects",
+    description: "Complete industrial processing plant with cyclone separators, ductwork systems, and exhaust stacks. Heavy crane equipment used for positioning large fabricated components.",
+    image: portfolioPlantInstall,
+  },
+  {
+    id: 22,
+    title: "Pump Station Assembly",
+    category: "Piping & Tanks",
+    description: "Industrial pump station with multiple pump units and piping manifolds. Features flanged connections, motor drives, and structural steel canopy for equipment protection.",
+    image: portfolioPumpStation,
+  },
+  {
+    id: 23,
+    title: "Factory Fabrication Yard",
+    category: "Industrial Projects",
+    description: "Large-scale fabrication operations at an industrial facility. Features crane lifting operations, ductwork assembly, and various steel fabrication work in progress.",
+    image: portfolioFactoryWork,
+  },
+  {
+    id: 24,
+    title: "Steel Frame Building",
+    category: "Structural Works",
+    description: "Large industrial steel frame building under construction. Features portal frame design with purlins and roof truss systems for warehouse and manufacturing facilities.",
+    image: portfolioFrameBuild,
   },
 ];
 
