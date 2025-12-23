@@ -33,10 +33,10 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-lg border-b border-border"
-          : "bg-transparent"
+          ? "bg-background/70 backdrop-blur-xl shadow-md border-b border-border/50 supports-[backdrop-filter]:bg-background/60"
+          : "bg-gradient-to-b from-background/80 to-transparent backdrop-blur-sm"
       )}
     >
       <div className="container mx-auto px-4">
