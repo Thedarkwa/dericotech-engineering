@@ -246,10 +246,10 @@ const PortfolioPage = () => {
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
+                  className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 active:scale-95 ${
                     selectedCategory === category
-                      ? "bg-primary text-primary-foreground"
-                      : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                      ? "bg-primary text-primary-foreground shadow-lg"
+                      : "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:shadow-md"
                   }`}
                 >
                   {category}
@@ -263,24 +263,27 @@ const PortfolioPage = () => {
             {filteredProjects.map((project, index) => (
               <AnimatedSection key={project.id} delay={index * 100}>
                 <div
-                  className="group relative overflow-hidden rounded-lg bg-card card-shadow cursor-pointer"
+                  className="group relative overflow-hidden rounded-xl bg-card shadow-elevated hover:shadow-floating cursor-pointer transition-all duration-500 hover:-translate-y-2"
                   onClick={() => setSelectedProject(project)}
                 >
                   <div className="aspect-[4/3] overflow-hidden">
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                    <span className="text-primary text-xs font-medium tracking-widest">
+                  <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                    <span className="inline-block px-3 py-1 bg-primary/90 text-primary-foreground text-xs font-medium tracking-widest rounded-full mb-2">
                       {project.category}
                     </span>
-                    <h3 className="font-display text-2xl text-foreground mt-1">
+                    <h3 className="font-display text-2xl text-background drop-shadow-lg">
                       {project.title}
                     </h3>
+                  </div>
+                  <div className="absolute top-4 right-4 w-10 h-10 bg-primary/90 rounded-full flex items-center justify-center opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500 delay-100">
+                    <ArrowRight className="w-5 h-5 text-primary-foreground" />
                   </div>
                 </div>
               </AnimatedSection>
