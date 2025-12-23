@@ -10,6 +10,7 @@ import serviceMetalFabrication from "@/assets/service-metal-fabrication.jpg";
 import serviceCustomFabrication from "@/assets/service-custom-fabrication.jpg";
 import serviceCrane from "@/assets/service-crane.jpg";
 import serviceRollerDoor from "@/assets/service-roller-door.jpg";
+import serviceFencing from "@/assets/service-fencing.jpg";
 
 const services = [
   {
@@ -122,7 +123,7 @@ const services = [
     subtitle: "Boundary & Pool Fencing",
     description: "Complete fencing solutions including boundary chain links, barbwire fencing, and swimming pool fencing. We provide durable, secure fencing for residential, commercial, and industrial properties.",
     features: ["Chain Link Fencing", "Barbwire Fencing", "Swimming Pool Fencing", "Boundary Fencing", "Security Fencing", "Gate Installation"],
-    image: serviceStructuralWelding,
+    image: serviceFencing,
   },
 ];
 const ServicesPage = () => {
