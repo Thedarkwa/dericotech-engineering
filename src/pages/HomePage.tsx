@@ -7,6 +7,27 @@ import serviceMig from "@/assets/service-mig-welding.jpg";
 import homeMetalFabrication from "@/assets/home-metal-fabrication.jpg";
 import homeStructuralWelding from "@/assets/home-structural-welding.jpg";
 
+// Portfolio images
+import portfolioCraneBeam from "@/assets/portfolio-crane-beam.jpg";
+import portfolioContainer from "@/assets/portfolio-container.jpg";
+import portfolioPiping from "@/assets/portfolio-piping.jpg";
+import portfolioDuctwork from "@/assets/portfolio-ductwork.jpg";
+import portfolioSteelStructure from "@/assets/portfolio-steel-structure.jpg";
+import portfolioPipes from "@/assets/portfolio-pipes.jpg";
+import portfolioContainerBuild from "@/assets/portfolio-container-build.jpg";
+import portfolioWarehouse from "@/assets/portfolio-warehouse.jpg";
+
+const portfolioItems = [
+  { image: portfolioCraneBeam, title: "Crane Beam Fabrication" },
+  { image: portfolioContainer, title: "Container Conversion" },
+  { image: portfolioPiping, title: "Industrial Piping" },
+  { image: portfolioDuctwork, title: "Ductwork Installation" },
+  { image: portfolioSteelStructure, title: "Steel Structure" },
+  { image: portfolioPipes, title: "Heavy Pipe Works" },
+  { image: portfolioContainerBuild, title: "Container Building" },
+  { image: portfolioWarehouse, title: "Warehouse Construction" },
+];
+
 const stats = [
   { icon: Users, value: "500+", label: "Projects Completed" },
   { icon: Clock, value: "10+", label: "Years Experience" },
@@ -165,6 +186,52 @@ const HomePage = () => {
               <Button asChild variant="outline" size="lg">
                 <Link to="/services">
                   View All Services
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </Button>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* Portfolio Section */}
+      <section className="py-24 bg-card">
+        <div className="container mx-auto px-4">
+          <AnimatedSection>
+            <div className="text-center mb-16">
+              <span className="text-primary font-medium tracking-widest text-sm">OUR WORK</span>
+              <h2 className="font-display text-4xl md:text-5xl text-foreground mt-4 mb-6">
+                FEATURED PROJECTS
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Explore our portfolio of completed projects showcasing our expertise in welding and fabrication.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {portfolioItems.map((item, index) => (
+              <AnimatedSection key={item.title} delay={index * 50}>
+                <div className="group relative aspect-square overflow-hidden rounded-lg cursor-pointer">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                    <h3 className="font-display text-lg text-foreground">{item.title}</h3>
+                  </div>
+                </div>
+              </AnimatedSection>
+            ))}
+          </div>
+
+          <AnimatedSection delay={450}>
+            <div className="text-center mt-12">
+              <Button asChild variant="outline" size="lg">
+                <Link to="/portfolio">
+                  View Full Portfolio
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </Button>
