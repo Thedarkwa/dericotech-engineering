@@ -37,7 +37,7 @@ const services = [
     subtitle: "Large Scale Projects",
     description: "We handle large-scale industrial fabrication projects including structural components, machinery parts, and specialized equipment. Our team has experience working with factories, construction sites, and industrial facilities.",
     features: ["Structural Components", "Machinery Parts", "Equipment Fabrication", "Platform & Walkways", "Industrial Shelving", "Conveyor Systems"],
-    image: serviceStructural,
+    image: serviceFab,
   },
   {
     icon: Hammer,
