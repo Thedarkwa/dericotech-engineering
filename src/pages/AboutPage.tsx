@@ -1,6 +1,6 @@
 import { Target, Eye, MapPin, CheckCircle } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import serviceFab from "@/assets/service-fabrication.jpg";
+import aboutHero from "@/assets/about-hero.jpg";
 
 const values = [
   {
@@ -25,22 +25,26 @@ const AboutPage = () => {
   return (
     <main className="pt-20">
       {/* Hero Section */}
-      <section className="py-24 bg-hero relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary rounded-full blur-3xl" />
+      <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src={aboutHero}
+            alt="Derricotech Engineering team at industrial site"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-transparent" />
         </div>
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 relative z-10 h-full flex items-center">
           <AnimatedSection>
-            <div className="max-w-3xl">
+            <div className="max-w-2xl">
               <span className="text-primary font-medium tracking-widest text-sm">ABOUT US</span>
               <h1 className="font-display text-5xl md:text-6xl text-foreground mt-4 mb-6">
-                BUILDING GHANA'S FUTURE WITH{" "}
-                <span className="text-gradient">STEEL & PRECISION</span>
+                DERRICOTECH{" "}
+                <span className="text-gradient">ENGINEERING</span>
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Derricotech Engineering is a trusted name in welding and fabrication services, 
-                serving clients across Ghana with excellence, precision, and dedication.
+                Derricotech Engineering Company Limited is a multidisciplinary contractor, we provide real value to all our clients by achieving the best in the industry result and the highest level of professionalism in every service, projects and structure we deliver. We are a trusted brand in engineering mainly welding and fabrication serving clients across Ghana with excellence, precision and dedication.
               </p>
             </div>
           </AnimatedSection>
@@ -54,7 +58,7 @@ const AboutPage = () => {
             <AnimatedSection>
               <div className="relative">
                 <img
-                  src={serviceFab}
+                  src={aboutHero}
                   alt="Fabrication workshop"
                   className="rounded-lg w-full card-shadow"
                 />
